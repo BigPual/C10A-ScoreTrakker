@@ -15,9 +15,9 @@ public class Student implements Comparable{
 	public int compareTo(Object o) {
 		Student comp = (Student)(o);
 		if(score > comp.score)
-			return 1;
+			return -1;
 		
-		return -1;
+		return 1;
 	}
 
 	@Override
